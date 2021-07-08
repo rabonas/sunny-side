@@ -32,12 +32,13 @@
         display: none;
     }
 
-    .cards-row {
-        display: block;
-    }
-
     .column {
         width: 100%;
+        order: 2;
+    }
+
+    .order {
+        order: 1;
     }
 
     .text {
@@ -82,5 +83,55 @@
 
     .resept-img {
         width: 50%;
+    }
+}
+
+@media (max-width: 480px){
+    
+    .row {
+        padding: 34px 20px;
+    }
+
+    .animation {
+        font-size: 40px;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+    .about {
+        width: 250px;
+        top: 28%;
+        left: calc(50% - 125px);
+    }
+
+    .about h3 {
+        font-size: 24px;
+    }
+
+    .about p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .coment-column {
+        width: 80%;
+    }
+
+    .coment-column h3 {
+        font-size: 14px;
+    }
+
+    .coment-column p {
+        margin: 32px 0;
+    }
+
+    .coment-column h4 {
+        margin-bottom: 10px;
+    }
+
+    .links {
+        padding: 64px 0 80px;
     }
 }
