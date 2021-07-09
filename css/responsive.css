@@ -15,7 +15,7 @@
     }
 
     .about {
-        top: 45%;
+        bottom: 30px;
     }
 
     .coment-column {
@@ -24,12 +24,21 @@
 }
 
 @media (max-width: 767px){
+
+    .intro {
+        padding-bottom: 200px;
+    }
+
     .menu {
         display: block;
     }
 
     .header-link, .header-button {
         display: none;
+    }
+
+    .animation {
+        font-size: 36px;
     }
 
     .column {
@@ -72,10 +81,10 @@
         padding-top: 65px;
         animation: none;
     }
-
+/* 
     .about {
         top: 55%;
-    }
+    } */
 
     .resept {
         flex-wrap: wrap;
@@ -87,22 +96,36 @@
 }
 
 @media (max-width: 480px){
+
+    .intro {
+        padding-bottom: 150px;
+    }
     
     .row {
         padding: 34px 20px;
     }
 
     .animation {
-        font-size: 40px;
+        font-size: 30px;
+        margin-bottom: 80px;
     }
 
     .text {
         width: 90%;
+        padding: 35px 20px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+    .text p, .cards-link, .coment-column p {
+        font-size: 14px;
     }
 
     .about {
         width: 250px;
-        top: 28%;
+        /* top: 28%; */
         left: calc(50% - 125px);
     }
 
@@ -113,6 +136,10 @@
     .about p {
         font-size: 14px;
         line-height: 20px;
+    }
+
+    .coment h3 {
+        padding: 0 10px;
     }
 
     .coment-column {
@@ -131,7 +158,15 @@
         margin-bottom: 10px;
     }
 
+    .coment-column span {
+        font-size: 12px;
+    }
+
     .links {
         padding: 64px 0 80px;
+    }
+
+    .footer-nav a {
+        padding: 0 18px;
     }
 }

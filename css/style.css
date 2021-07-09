@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    font-family: 'Barlow', sans-serif;
 }
 
 * {
@@ -42,7 +43,7 @@ a {
 }
 
 .header-link {
-    font-family: 'Barlow', sans-serif;
+    
     font-size: 18px;
     margin-right: 47px;
     letter-spacing: -0.128571px;
@@ -151,6 +152,7 @@ a {
     font-size: 56px;
     margin: 40px 0 96px;
     text-align: center;
+    padding: 0 10px;
     letter-spacing: 8.75px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -211,7 +213,6 @@ a {
 }
 
 .text p {
-    font-family: 'Barlow', sans-serif;
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 40px;
@@ -270,7 +271,8 @@ a {
 .about {
     position: absolute;
     width: 340px;
-    top: 58%;
+    top: auto;
+    bottom: 50px;
     left: calc(50% - 170px);
     text-align: center;
 }
@@ -295,7 +297,6 @@ a {
 }
 
 .about p {
-    font-family: 'Barlow', sans-serif;
     line-height: 27px;
     letter-spacing: -0.114286px;
 }
